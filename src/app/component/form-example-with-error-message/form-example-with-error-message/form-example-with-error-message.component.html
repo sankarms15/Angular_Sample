@@ -1,0 +1,7 @@
+<form>
+    <div [formGroup]="formGroup">
+        <label for="phoneNumber">Phone Number: </label>
+        <input type="text" numer-only class="form-control" id="phoneNumber" name="phoneNumber" formControlName="phoneNumber" required>
+        <app-form-control-error-message [control]="formGroup.get('phoneNumber')"></app-form-control-error-message>
+    </div>
+  </form>

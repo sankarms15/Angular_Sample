@@ -1,0 +1,21 @@
+//Custom color
+$color-primary: #fc0;
+$color-secondary: #fff;
+$color-dark: #231f20;
+
+// Buttons
+
+$btn-padding-x:                  rem-calc(22);
+$btn-padding-y:                  rem-calc(13);
+
+$btn-primary-color:              $color-dark;
+$btn-primary-bg:                 $color-primary;
+$btn-primary-border:             $color-primary;
+
+$btn-secondary-color:            $color-dark;
+$btn-secondary-bg:               $color-secondary;
+$btn-secondary-border:           #bdbdbd;
+
+$btn-border-radius:              rem-calc(25);
+
+$btn-transition:                 color 200ms ease-in-out,border-color 200ms ease-in-out,border-style 200ms ease-in-out,background-color 200ms ease-in-out;

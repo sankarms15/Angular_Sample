@@ -1,0 +1,28 @@
+.form-control {
+    &.ng-dirty {
+        &.ng-invalid {
+            border-color: red;
+            &:hover,
+            &:focus,
+            &:active {
+                border-color: red;
+            }
+        }
+    }
+
+    &.ng-touched {
+        &.ng-invalid {
+            border-color: red;
+            &:hover,
+            &:focus,
+            &:active {
+                border-color: red;
+            }
+        }
+    }
+
+}
+
+.form-error-message {
+    color: red;
+}

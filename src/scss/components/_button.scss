@@ -1,0 +1,42 @@
+$btn-min-width: 180px;
+$btn-primary-active-bg: #ffe47c;
+$btn-primary-focus-border-color: #333;
+$btn-secondary-color: #656262;
+$btn-secondary-active-border-color: #465458;
+.btn {
+  min-width: $btn-min-width;
+  cursor: pointer;
+  &-primary {
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $btn-primary-active-bg;
+      border-color: $btn-primary-active-bg;
+      box-shadow: none;
+      outline: 0;
+    }
+    &:focus,
+    &.focus {
+      border: 1px dashed $btn-primary-focus-border-color;
+    }
+  }
+  &-secondary {
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      color: $btn-secondary-color;
+      background-color: $btn-secondary-bg;
+      border-color: $btn-secondary-active-border-color;
+      box-shadow: none;
+      outline: 0;
+    }
+    &:focus,
+    &.focus {
+      border-style: dashed;
+    }
+  }
+}
